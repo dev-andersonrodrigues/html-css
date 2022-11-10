@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+
+
+@font-face {
+    font-family: 'Android';
+    src: url('../fontes/idroid.otf') format('opentype');
+    font-weight: normal;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root{
+    --cor0: #ffff; 
+    --cor2: #42DB98;
+    --cor1: #00D479;
+    --cor3: #00A15B;
+    --cor4: #005430;
+    --cor5: #19543B;
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-android: 'Android', 'cursive';
+}
+
+body {
+    font-family: var(--fonte-padrao);
+}
+
+header {
+    background-color: var(--cor2);
+    color: var(--cor0);
+}
+
+header > h1 {
+     font-family: var(--fonte-destaque);
+
+}
+
+nav {
+    background-color: var(--cor4);
+}
+
+article > h1,h2,h3 {
+    font-family: var(--fonte-android);
+}

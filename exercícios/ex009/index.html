@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outras formatações</title>
+</head>
+<body>
+    <h1>Outras formatações</h1> <hr>
+    <h2>Código fonte/ Pré-formatação </h2>
+    <p>a tag &lt;code&gt; é usada para citar codigos de linguagens de programação. <code>as letras ficam monoespaçadas</code></p>
+    <pre>
+        <p>Ao usar tbm a tag
+            &lt;pre&gt;
+        a formatação do texto
+         fica igual a do codigo, além 
+         das letras ficarem monoespaçadas.</p>
+    </pre>
+    <h2>Citações simples</h2> <hr>
+    <p><q>O computador é um burro muito rápido</q></p>
+    <h2>Citações completas</h2> <hr>
+    <p>fulano disse em seu livro fure quinho:</p>
+    <blockquote>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla, velit? Beatae illum voluptatem quod officiis molestias? Libero inventore labore itaque, possimus ex ducimus temporibus architecto quidem maxime aut, et odit?</blockquote>
+    <h2>Abreviações</h2>
+    <hr>
+    <p>Eu trabalho na <abbr title="Organização das Nações Unidas">ONU</abbr></p>
+    <h2>Texto <bdo dir="rtl">ivertido</bdo></h2> <hr>
+    <p><bdo dir="rtl">vai te lascar arrombado</bdo></p>
+    <h1>Listas</h1> <hr>
+    <h2>Listas ordenadas</h2>
+    <p>Esse é o tipo de lista que necessita de seguir uma ordem. Para isso usamos a tag &lt;ol&gt;<br>
+    Ex:</p>
+    <ol>sequência do que vou fazer em Sousa:
+        <li>ir na caixa</li>
+        <li>ir no itau</li>
+        <li>ir na farmácia</li>
+        <li>ir no mercado</li>
+        <li>posto barrozão</li>
+        <li>casa</li>
+</ol>
+    <p>Dentro desse tipo de lista podemos configura-lá por tipo, e definir o que irá aparecer a esquerda(letras,numeros, ou algarismos),<br> usando a tag &lt;ol type="a"&gt;    "inserir A,a,I,i, ou 1"</p>
+    <ol type="a" >
+        <li>ir na caixa</li>
+        <li>ir no itau</li>
+        <li>ir na farmácia</li>
+        <li>mercado</li>
+        <li>posto</li>
+        <li>casa</li>
+    </ol>
+    <p>Também posso fazer a contagem começar com um numero mais alto do que 1 usando &lt;ol type="1" start="número que irá começar a contagem"&gt;</p>
+    <ol type="1" start="5">
+        <li>ir na caixa</li>
+        <li>ir no itau</li>
+        <li>ir na farmácia</li>
+        <li>mercado</li>
+        <li>posto</li>
+        <li>casa</li>
+        <hr>
+        <h2>Listas não ordenadas</h2>
+        <p>Para criar uma lista que não segue uma ordem, por ex: uma lista de compras</p>
+        
+        <ul type="circle">
+            <li>açucar</li>
+            <li>tempero</li>
+            <li>e tudo que há de bom</li>
+        </ul>
+        <h2>Lista Mista/Definição de Lista</h2>
+        <hr>
+        <h3>Lista Mista</h3>
+        <p>Listas juntas servem para fazer indices</p>
+        <h4>Minhas linguagens favoritas</h4>
+        <ol>
+            <li>Antigas</li>
+            <ul>
+                <li>html4</li>
+                <li>java</li>
+                <li>c</li>
+            </ul> 
+            <li>Novas</li>
+            <ul>
+                <li>C++</li>
+                <li>Javascript</li>
+                <li>php</li>
+            </ul>
+        </ol>
+        <h3>Lista de definições</h3>
+        <dl>
+            <dt>Hailly</dt>
+            <dd>Minha esposa gostosa</dd>
+            <dt>Neivinha</dt>
+            <dd>rapariga sem priquito</dd>
+            <dt>Sebastiana</dt>
+            <dd>Mamãe querida</dd>
+</dl>
+<h1>Links e Âncoras</h1><hr>
+<h2>Links externos</h2>
+<p>Você pode acessar o meu canal do youtube <a href="https://www.youtube.com/watch?v=V1Pl8CzNzCw&list=RDMM&index=7" target="_blank" rel="external">clicando aqui</a></p>
+<p>Esse link é feito, usando a tag <code>&lt;a&gt; href="url do site"</code> se o link for para um outro site se usa o <code>target="_blank" rel="external"</code>.</p>
+<hr><h2>Links Internos</h2>
+<p>esta é a <a href="pag002.html" target="_self" rel="next">segunda pagina</a> do meu site</p>
+<p><a href="news/pag003.html" target="_self" rel="next">Minhas redes sociais</a></p>
+<p><a href="pag004.html" target="_self" rel="next">desafio das tags</a></p>
+<h2>Link para download</h2>
+<p><a href="micelle.zip" download="michelle.zip" type="application/zip">meu arquivo zip</a></p>
+
+</body>
+</html>
